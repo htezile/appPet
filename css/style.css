@@ -118,7 +118,12 @@ footer {
 	.main-elements {
 		width: 100%;
 	}
-
+	
+	.main-elements .featured {
+	grid-row: span 2;
+	grid-column: span 2;
+	}
+	
 	.material-icons {
 		margin: 0.2em;
 	}
